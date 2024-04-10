@@ -1,0 +1,82 @@
+.flag{
+    width: 450px;
+    height: 280px;
+    background-color: #00205B;
+    position: relative;
+    border: 0.7px solid black;
+}
+.child-container1{
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.child-container2{
+    width: 280px;
+    height: 120px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.child-container3{
+    width: 120px;
+    height: 115px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.child-container4{
+    width: 280px;
+    height: 115px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.inner-container1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #BA0C2F; 
+}
+.inner-container2{
+    width: 260px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #BA0C2F; 
+}
+.inner-container3{
+    width: 100px;
+    height: 100px;
+    background-color: #BA0C2F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.inner-container4{
+    width: 260px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #BA0C2F; 
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #BA0C2F;
+    position: absolute;
+    top: 200px;
+    right: 30%;
+    z-index: -999;
+    filter: blur(220px);
+}
